@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Noah Body Generator</title>
+  <meta name="description" content="Noahs Body Generator">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./static/styles/style.css">
+
+</head>
+
+<body>
+    <h1>Noahs Body Generator</h1>
+
+    <div class="body-parts-container">
+      <div class="head-container">
+
+        <img id="head-image" src="./static/images/heads/head-man.jpg" alt="">
+      </div>
+      <div class="body-container">
+        <img id="body-image" src="./static/images/bodies/buff-man.jpg" alt="">
+      </div>
+        
+      <div class="leg-container">
+        <img id="leg-image" src="./static/images/legs/legs.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button id="generate-head" class="btn btn-dark">Press to Generate Head!</button>
+      <button id="generate-body" class="btn btn-dark">Press to Generate body!</button>
+      <button id="generate-legs" class="btn btn-dark">Press to Generate legs!</button>
+    </div>
+
+    <button id="generate-all" class="btn btn-primary">Press to Generate All!</button>
+
+    <script src="./imagePaths.js"></script>
+    <script src="./script.js"></script>
+    
+
+</body>
+</html>

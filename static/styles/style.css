@@ -1,0 +1,43 @@
+.body-container, .head-container, .leg-container {
+    /* border: 1px solid blue; */
+    width: 100%;
+    border-radius: 20px;
+    /* padding: auto ; */
+    display: flex;
+    justify-content: center;
+    margin:auto
+}
+
+.body-container img, .head-container img, .leg-container img {
+    height:  90px;
+    
+}
+
+body {
+    text-align: center;
+    background-color: rgb(55, 60, 75);
+}
+
+.body-parts-container {
+    border: 3px solid rgb(17, 17, 82);
+    width: 20%;
+    min-width: 300px;
+    border-radius: 20px;
+    /* padding: auto ; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    /* padding: 20px; */
+
+    background-color:  white;
+}
+
+.button-container{
+    margin-bottom: 10px;
+}
+
+h1{
+    color: aliceblue;
+}
